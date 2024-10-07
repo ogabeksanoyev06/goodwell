@@ -1,0 +1,114 @@
+.mx-main-modal-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1100;
+  overflow-y: auto;
+}
+.mx-main-modal-container .mx-main-modal-overlay {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.mx-main-modal-container .mx-main-modal {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  height: 100%;
+}
+.mx-main-modal-container .mx-main-modal .mx-modal-wrapper {
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.mx-main-modal-container .mx-main-modal .mx-modal-wrapper .custom-modal-close {
+  right: 50%;
+  cursor: pointer;
+  top: 100%;
+  position: absolute;
+  transform: translateX(21px);
+}
+.mx-main-modal-container .mx-main-modal .mx-modal-wrapper .mx-modal-box {
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 30px 32px 64px 0 rgba(0, 0, 0, 0.31);
+}
+.mx-main-modal-container .mx-main-modal .mx-modal-wrapper .mx-modal-box.overflow-scroll {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+.mx-main-modal-container .mx-main-modal .mx-modal-wrapper .mx-modal-box .mx-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mx-main-modal-container .mx-main-modal .mx-modal-wrapper .mx-modal-box .mx-buttons .mx-btn {
+  margin: 0 10px;
+}
+
+.big-filter-modal {
+  height: 85vh;
+}
+.big-filter-modal .mx-modal-box {
+  height: 100%;
+}
+.big-filter-modal .mx-modal-box__content {
+  max-height: calc(100% - 150px);
+}
+.big-filter-modal form {
+  height: 100%;
+}
+.big-filter-modal form > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mx-modal-box__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-darkBlue);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 30px;
+  border-bottom: 1px solid #e6e8ec;
+}
+.mx-modal-box__head img {
+  display: block;
+  cursor: pointer;
+}
+
+.mx-modal-box__content {
+  padding: 30px;
+}
+
+.mx-modal-box__footer {
+  padding: 12px 30px;
+  border-top: 1px solid #e6e8ec;
+}
+
+@media (max-width: 992px) {
+  .mx-modal-box__head {
+    padding: 12px 15px;
+  }
+  .mx-modal-box__head img {
+    width: 30px;
+    height: 30px;
+  }
+  .mx-modal-box__footer {
+    padding: 12px 15px;
+  }
+  .mx-modal-box__content {
+    padding: 15px;
+  }
+}

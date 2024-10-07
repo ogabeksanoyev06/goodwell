@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-Medium.woff2') format('woff2'),
+        url('Jeko-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-Thin.woff2') format('woff2'),
+        url('Jeko-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-MediumItalic.woff2') format('woff2'),
+        url('Jeko-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko-RegularItalic';
+    src: url('Jeko-RegularItalic.woff2') format('woff2'),
+        url('Jeko-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-SemiBoldItalic.woff2') format('woff2'),
+        url('Jeko-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-SemiBold.woff2') format('woff2'),
+        url('Jeko-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-ThinItalic.woff2') format('woff2'),
+        url('Jeko-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JekoVariable';
+    src: url('JekoVariable.woff2') format('woff2'),
+        url('JekoVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-Regular.woff2') format('woff2'),
+        url('Jeko-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-ExtraBold.woff2') format('woff2'),
+        url('Jeko-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-LightItalic.woff2') format('woff2'),
+        url('Jeko-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-ExtraLightItalic.woff2') format('woff2'),
+        url('Jeko-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JekoItalicVariable';
+    src: url('JekoItalicVariable.woff2') format('woff2'),
+        url('JekoItalicVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-ExtraLight.woff2') format('woff2'),
+        url('Jeko-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-ExtraBoldItalic.woff2') format('woff2'),
+        url('Jeko-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-Black.woff2') format('woff2'),
+        url('Jeko-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-Bold.woff2') format('woff2'),
+        url('Jeko-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-BoldItalic.woff2') format('woff2'),
+        url('Jeko-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-BlackItalic.woff2') format('woff2'),
+        url('Jeko-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jeko';
+    src: url('Jeko-Light.woff2') format('woff2'),
+        url('Jeko-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
